@@ -1,0 +1,57 @@
+    float suma(float a, float b);
+
+    int suma(int a, int b);
+    
+    /*int resta(int numuno, int numdos);*/
+    
+int main(){
+    
+    cout << "Esta es la función SUMA con numeros enteros" << endl;
+    int c;
+    c = suma (5 , 9);
+    cout << "El valor de la suma es: " << c << endl;
+    
+    cout << endl;
+    /*int resultado;
+    resultado = resta (8 , 3);
+    cout << "El valor de la resta es: " << resultado << endl;*/
+    
+    cout << endl;
+    cout << "Esta es la función SUMA con numeros flotantes";
+    int d;
+    d = suma(6.5 , 8.9);
+    cout << "El valor de la suma es: " << d << endl;
+    
+    return 0;
+}
+  
+    int suma(int a, int b){
+    int c;
+      
+      c = (a + b);
+      
+    return c;
+    
+    }
+    
+    float suma(float a, float b){
+        
+        float d;
+        
+        d = a + b;
+        
+        return d;
+        
+    }
+    
+      /*int resta(int numuno, int numdos){
+      
+        int resultado;
+        
+        resultado = (numuno - numdos);
+        
+        return resultado;
+      }*/
+    
+    
+    
